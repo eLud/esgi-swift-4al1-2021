@@ -18,6 +18,13 @@ struct CustomTextView: View {
             Text(text)
         }.navigationTitle(text)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            Button {
+
+            } label: {
+                Image(systemName: "heart")
+            }
+        }
     }
 }
 

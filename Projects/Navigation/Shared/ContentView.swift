@@ -21,6 +21,13 @@ struct ContentView: View {
                 Text("View D")
             }
             .navigationTitle("View list")
+            .toolbar {
+                Button {
+
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
         }
     }
 }
